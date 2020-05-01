@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88bd0f99-e790-45ea-a51a-6c342e9ee990" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ros-bridge/carla_ego_vehicle/config/sensors.json" beforeDir="false" afterPath="$PROJECT_DIR$/ros-bridge/carla_ego_vehicle/config/sensors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros-bridge/carla_ros_bridge/launch/carla_ros_bridge_with_example_ego_vehicle.launch" beforeDir="false" afterPath="$PROJECT_DIR$/ros-bridge/carla_ros_bridge/launch/carla_ros_bridge_with_example_ego_vehicle.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ros-bridge/pointcloud_to_laserscan/src/pointcloud_to_laserscan_nodelet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ros-bridge/pointcloud_to_laserscan/src/pointcloud_to_laserscan_nodelet.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bApGrHGH3Nh1y95Blpw8SSPnVu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88bd0f99-e790-45ea-a51a-6c342e9ee990" name="Default Changelist" comment="" />
+      <created>1588084659626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588084659626</updated>
+      <workItem from="1588084660982" duration="8436000" />
+      <workItem from="1588097538907" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588084692424">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1588084692424" />
+  </component>
+</project>
