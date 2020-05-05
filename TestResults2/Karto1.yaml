@@ -1,0 +1,7 @@
+image: Kartosess105052020.pgm
+resolution: 0.025000
+origin: [-73.929186, -191.852328, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
