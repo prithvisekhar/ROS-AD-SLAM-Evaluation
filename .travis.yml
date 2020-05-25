@@ -21,8 +21,8 @@ install: # Use this to install any prerequisites or dependencies necessary to ru
   # Create workspace
   - cd ~
   - git clone https://github.com/prithvisekhar/ROS-AD-SLAM-Evaluation.git
-  - mkdir -p ~/catkin_ws
-  - cd ~/catkin_ws/src
+  - mkdir -p ~/catkin_ws/src
+  - cd ~/catkin_ws
   - cp -r ~/ROS-AD-SLAM-Evaluation/catkin_bak/src/ros-bridge ~/catkin_ws/src
   - ls
 before_script: # Use this to prepare your build for testing e.g. copy database configurations, environment variables, etc.
