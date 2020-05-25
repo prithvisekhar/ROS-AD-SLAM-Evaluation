@@ -1,0 +1,17 @@
+<launch>
+  <master auto="start"/>
+  <param name="/use_sim_time" value="true"/>
+  <node pkg="slam_karto" type="slam_karto" name="slam_karto" output="screen">
+    <remap from="scan" to="rosbot/laser/scan"/>
+ <param name="base_frame" value="chassis" />
+    <param name="odom_frame" value="odom"/>
+    <param name="map_update_interval" value="25"/>
+    <param name="resolution" value="0.025"/>
+ <param name="delta" value="0.01"/>
+    <param name="xmin" value="-20"/>
+    <param name="xmax" value="20"/>
+    <param name="ymin" value="-20"/>
+    <param name="ymax" value="20"/>
+  </node>
+
+</launch>
