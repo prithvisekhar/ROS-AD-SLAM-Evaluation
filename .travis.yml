@@ -16,6 +16,7 @@ before_install: # Use this to prepare the system to install prerequisites or dep
   - sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
   - sudo apt-get update
   - sudo apt-get install ros-$ROS_DISTRO-desktop-full
+  - sudo apt install python-rosdep
   - sudo rosdep init
   - rosdep update
 install: # Use this to install any prerequisites or dependencies necessary to run your build
