@@ -1,2 +1,31 @@
-// @kankan for your reference 
-// https://github.com/prithvisekhar/mrs-ros-pkg/blob/master/.travis.yml 
+language:
+  - cpp
+  - python
+python:
+  - "2.7"
+compiler:
+  - gcc
+before_install: # Use this to prepare the system to install prerequisites or dependencies
+  # Define some config vars
+  - export ROS_DISTRO=melodic
+  - export CI_SOURCE_PATH=$(pwd)
+  - echo "Testing branch $TRAVIS_BRANCH "
+  - pwd
+  - sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  - sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+  - sudo apt-get update
+  - sudo apt install ros-melodic-desktop
+  - sudo rosdep init
+  - rosdep update
+install: # Use this to install any prerequisites or dependencies necessary to run your build
+  # Create workspace
+  - mkdir -p ~/catkin_ws/src
+  - cd ~/catkin_ws/src
+  - git clone https://github.com/prithvisekhar/ROS-AD-SLAM-Evaluation.git
+  - ls
+before_script: # Use this to prepare your build for testing e.g. copy database configurations, environment variables, etc.
+  - source /opt/ros/$ROS_DISTRO/setup.bash  
+script: # All commands must exit with code 0 on success. Anything else is considered failure.
+  # TEST 1 -------------------------------------------
+  - echo "Test 1 ========================================"
+  - catkin_make DCMAKE_BUILD_TYPE=Debug
