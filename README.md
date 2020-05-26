@@ -1,7 +1,6 @@
 # ROS-AD-SLAM-Evaluation
 
 [![Build Status](https://travis-ci.org/prithvisekhar/ROS-AD-SLAM-Evaluation.svg?branch=master)](https://travis-ci.org/prithvisekhar/ROS-AD-SLAM-Evaluation)
-[![Build Status](https://travis-ci.org/prithvisekhar/ROS-AD-SLAM-Evaluation.svg?branch=master)](https://travis-ci.org/prithvisekhar/ROS-AD-SLAM-Evaluation)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fc09abb6922742cd87466edc36580fba)](https://www.codacy.com/manual/prithvisekhar/ROS-AD-SLAM-Evaluation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prithvisekhar/ROS-AD-SLAM-Evaluation&amp;utm_campaign=Badge_Grade)
 
 ## How to setup Carla Environment to replicate the test results
